@@ -116,6 +116,8 @@ Current date: ${this.getToday()}<|im_end|>`;
       }
     );
 
+    console.log("response", response);
+
     let responseStr = response.data.choices[0].text
       .replace(/<\|im_end\|>/g, "")
       .trim();
