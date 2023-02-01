@@ -1,3 +1,3 @@
-import ChatGPT from "./classes/chatgpt.js";
+import ChatGPT from "./classes/chatgpt.ts";
 
 export default ChatGPT;
