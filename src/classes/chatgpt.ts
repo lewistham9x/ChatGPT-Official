@@ -1,7 +1,7 @@
 // import axios from "axios";
 import fetch from "node-fetch";
-import options from "../models/options.js";
-import conversation from "../models/conversation.js";
+import options from "../models/options.ts";
+import conversation from "../models/conversation.ts";
 
 class ChatGPT {
   public key: string;
