@@ -72,7 +72,7 @@ Current date: ${this.getToday()}<|im_end|>`);
       credentials: "same-origin", // include, *same-origin, omit
       headers: {
         "Content-Type": "application/json",
-        ...headers,
+        Authorization: `Bearer ${this.key}`,
       },
       redirect: "follow", // manual, *follow, error
       referrerPolicy: "no-referrer", // no-referrer, *client
